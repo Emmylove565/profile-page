@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-  background-color: #42671B;
+  background-color: #45553C;
 }
 
 nav ol {
@@ -29,22 +29,36 @@ nav ol li {
 }
 
 nav ol li a {
-  color: #fff;
+  color: #FFE2BC;
   font-weight: bold;
   text-decoration: none;
 }
 
 nav ol li a:hover {
   text-decoration: none;
-  color: #CF0000
+  color: #96DA69
 }
 
 .hero-banner {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   background-color: #000;
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.card {
+  background-color:#FF8C8C;
+  padding: 2em;
 }
