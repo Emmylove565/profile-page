@@ -98,3 +98,29 @@ article > img {
   object-fit: cover;
   border: 3px solid #45553C;
 }
+
+.top-button {
+  background-color: #E2ECD9;
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.top-button a {
+  margin: 0;
+  text-decoration: none;
+  color: #45553C;
+}
+
+.top-button a:hover {
+  text-decoration: none;
+  color: #96DA69;
+}
+
+
+footer {
+  background-color: #45553C;
+  margin: 0;
+  padding: 0.5em;
+  text-align: center;
+  color: #FFE2BC;
+}
