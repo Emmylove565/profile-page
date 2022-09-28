@@ -51,13 +51,6 @@ nav ol li a:hover {
   background-size: cover;
 }
 
-.my-work {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 4em;
-  background-color: #E2ECD9;
-}
-
 h2 {
   color: #45553C;
   font-family: 'Staatliches', cursive;
@@ -82,6 +75,12 @@ h2 {
   border-radius: 100%;
 }
 
+.my-work {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4em
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -91,6 +90,7 @@ h2 {
 article {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 article > img {
@@ -103,7 +103,7 @@ article > img {
 .top-button {
   background-color: #E2ECD9;
   text-align: center;
-  padding-bottom: 4em;
+  padding: 1em;
   font-family: 'Staatliches', cursive;
 }
 
